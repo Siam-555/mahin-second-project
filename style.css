@@ -16,8 +16,7 @@ body {
 /* --------------------------------------------------*/ 
 header {
   height: 100lvh;
-  position: relative;
-  background: linear-gradient(to bottom, black, #161616, #1b1b1b, #161616, grey);
+  background: linear-gradient(to bottom, black, #161616, #1b1b1b, #161616, black);
 }
 header section div {
   width: 40%;
@@ -99,6 +98,30 @@ header section {
   position: relative;
 }
 #header-img > img {
-  position: relative;
   height: 100%;
+}
+
+
+/* -------------------------------------------------- */
+              /* Change your habits section */
+/* --------------------------------------------------*/ 
+#change-your-habits {
+  text-align: center;
+}
+#change-your-habits > p {
+  margin: 15px auto;
+}
+.common-heading {
+  font-size: 2.5rem;
+}
+#habits {
+  display: flex;
+  justify-content: space-evenly;
+}
+#habits > div > img {
+  margin: 30px auto;
+  border-radius: 50%;
+}
+#habits > div > p {
+  margin: 10px auto;
 }

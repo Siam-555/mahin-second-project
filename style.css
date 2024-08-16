@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+
+/* -------------------------------------------------- */
+                        /* Header section */
+/* --------------------------------------------------*/ 
+header {
+  height: 100lvh;
+  position: relative;
+  background: linear-gradient(to bottom, black, #161616, #1b1b1b, #161616, grey);
+}
+header section div {
+  width: 40%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: rgb(49, 49, 49);
+}
+nav > h1 {
+  font-size: 2.2em;
+}
+nav > div {
+  padding: 2px 0;
+  display: flex;
+  border: 1px solid white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+}
+nav > div > p {
+  padding: 6px 15px;
+  margin: 0 3px;
+  border-radius: 50px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  background: transparent;
+}
+nav > div > p:nth-child(1) {
+  background: crimson;
+}
+#header-description {
+  margin: 0 auto;
+}
+#header-description h1 {
+  font-size: 3.8rem;
+  font-weight: bolder;
+}
+#header-description h1 span {
+  font-family: 'Grey Qo';
+  font-size: 3.5rem;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-details {
+  margin: 40px auto;
+  line-height: 2rem;
+  font-size: 1.03em;
+}
+#header-buttons {
+  display: flex;
+  width: 100%;
+}
+.btn-primary {
+  padding: 12px 35px;
+  font-size: medium;
+  font-weight: 500;
+  background: #E6533C;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+.app-btn {
+  margin-left: 12px;
+  background: transparent;
+  border: 1px solid white;
+}
+.dim-text {
+  opacity: 0.6;
+}
+#header-img {
+  margin: 0 auto;
+  position: relative;
+}
+#header-img > img {
+  position: relative;
+  height: 100%;
+}

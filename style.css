@@ -137,7 +137,7 @@ header section {
   margin: 30px auto;
   padding: 20px;
   padding-left: 50px;
-  background: #2b2b2b;
+  background: #272727;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,3 +150,58 @@ header section {
   width: 100%;
   border-radius: 20px;
 }
+
+
+/* -------------------------------------------------- */
+               /* Meet Our Team section */
+/* --------------------------------------------------*/
+#meet-our-team {
+  margin: 60px auto;
+}
+#members {
+  background: #272727;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#members img {
+  height: 250px;
+  width: 350px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+#members > div {
+  margin: 0 auto;
+  position: relative;
+}
+#members > div > div {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
